@@ -1,0 +1,72 @@
+.gradient{
+  background: linear-gradient(to top, white 75%, pink 85%, purple 100%);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    margin-left: 38%;
+    margin-top: 50%;
+  
+}
+.txt{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.txtcol{
+     
+    text-align: center;
+    color: black;
+}
+.ob{
+    margin-left: 60px;
+}
+.button{
+    --background: linear-gradient(to top, purple, pink);
+}
+.tb{
+     
+    --background: linear-gradient(to right, turquoise, pink, purple);
+
+}
+.tp{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.textoff{
+    color: rgba(0, 0, 0, 0.3);
+}
+.igc{
+    border: transparent;
+}
+.igcc{
+    border: transparent;
+    
+}
+.igcol{
+    height: 150px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+ 
+     
+}
+.imgtt{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.imgg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

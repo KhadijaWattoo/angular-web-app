@@ -1,0 +1,69 @@
+.fullwhite{
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow: auto;
+}
+.texticon{
+    width: 100%;
+    height: 7%;
+    background: transparent;
+    margin-top: 25px;
+    font-size: xx-large;
+}
+.left{
+    float: right;
+}
+.imgs{
+    width: 100%;
+    height: 10%;
+    background: transparent;
+    margin-top: 20px;
+}
+ion-fab-button{
+    width: 70px;
+    height: 70px;
+    --border-radius: 15px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    --background: palevioletred;
+}
+.imgo{
+    width: 70px;
+    height: 70px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    margin-left: 85px;
+  
+}
+.imgt{
+    width: 70px;
+    height: 70px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    margin-left: 20px;
+     
+}
+ 
+.imgc{
+    width: 90%;
+    height: 20%;
+    margin-left: 17px;
+}
+.as{
+    width: 100%;
+}
+.clo{
+    border: none;
+    display: flex;
+    align-items: center;
+ 
+    
+}
+ .oim{
+     width: 95%;
+     margin-left: 10px;
+ }
+ .icon{
+    align-items: end;
+    margin-left: 40px;
+    position: relative;
+ }
+ 

@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>slider</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <swiper-container 
+  [breakpoints] ="{
+  '360':{
+    slidesPerView:'1',
+    'spaceBetween':3
+  },
+  '760':{
+    slidesPerView:'3',
+    'spaceBetween':6
+  },
+  '1121':{
+    slidesPerView:'4',
+    'spaceBetween':2
+  },
+ } "
+  >
+    <swiper-slide>Slide 1</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide>Slide 2</swiper-slide>
+    <swiper-slide>Slide 3</swiper-slide>
+
+  </swiper-container>
+</ion-content>

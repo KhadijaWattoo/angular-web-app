@@ -1,0 +1,117 @@
+.fh{
+    width: 100%;
+    height: 40%;
+    background: rgb(16, 170, 119);
+    overflow: auto;
+}
+.fl{
+    width: 10%;
+    height: 5%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.sl{
+    width: 7%;
+    height: 5%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.i{
+    width: 20px;
+    height: 20px;
+}
+ 
+.s{
+    margin-top: 100px;
+    font-size: 30px;
+    background: none;
+}
+.sa{
+    margin-top: 50px;
+}
+.fs{
+    float: right;
+    margin-right: 20px;
+     color: darkorange;
+      
+}
+.text{
+    margin-top: 30px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.texto{
+    margin-top: 20px;
+}
+.ocol{
+    border: solid rgb(8, 162, 121);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.scol{
+    border: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.tcol{
+    border: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.fcol{
+    border: none;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.t{
+    margin-top: 20px;
+}
+.nc{
+    border: none;
+}
+.inside-column{
+ background-color: rgba(0, 0, 0, 0.2);
+    width: 50px;
+    height: 50px;
+    text-align:center ;
+    font-size: xx-large;
+}
+.custom-button{
+    width: 70%;
+    margin-left: 40px;
+     --background: black;
+     color: white;
+     
+}
+.ic{
+  
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+}
+.last{
+    width: 80px;
+    height: 150px;
+    margin-top: 43px;
+    border-radius: 0 20% 0% 0%;  
+     color:  rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    place-items: center;
+    display: grid;
+    float: left;
+}
+.im{
+    float: right;
+    width:200px;
+    height: 170px;
+    background: none;
+    transform: rotate(-15deg);  
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+.just{
+    margin-top: 30px;
+}
+.custom-height{
+    height: 40%;
+    
+}
